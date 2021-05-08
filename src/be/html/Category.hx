@@ -1,9 +1,9 @@
-# html.content-categories
+package be.html;
 
-A simple enum abstract of Html element content categories.
-
-```haxe
-enum abstract Category {
+/**
+    @see http://www.w3.org/html/wg/drafts/html/master/dom.html#content-models
+**/
+enum abstract Category(Int) from Int to Int {
 	public var Unknown = -1;
 	public var Metadata = 0;
 	public var Flow = 1;
@@ -16,4 +16,3 @@ enum abstract Category {
 	public var Scripted = 8;
 	public var Root = 9;
 }
-```

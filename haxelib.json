@@ -1,0 +1,13 @@
+{
+    "name": "html.content-categories",
+    "url" : "https://github.com/skial/html.content-categories/",
+    "license": "MIT",
+    "tags": ["html", "categories", "category"],
+    "description": "A simple enum abstract of html content categories.",
+    "version": "0.0.1",
+    "classPath": "src/",
+    "releasenote": "Initial release.",
+    "contributors": ["skial"],
+    "dependencies": {
+    }
+  }
